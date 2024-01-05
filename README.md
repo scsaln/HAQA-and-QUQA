@@ -16,22 +16,22 @@ The following table describes the QUQA Annotation:
 |                                  |2.      The questions have one answer but are mentioned in many different verses in Quran.                  |
 |Question_Text                     |The question text                                                                                           |
 |Quetion_Type                      |The type of question can be Factoid (F), Confirmation (C) or Descriptive (D).                               |
-|Question_Start_Word	           |The question keyword.                                                                                       |
+|Question_Start_Word	             |The question keyword.                                                                                       |
 |Answer_ID	                       |The answer number to the same questions uniquely.                                                           |
 |                                  |1) If the question has only one answer in a sense, but it came in totally or partly in different            |
 |                                  |verses with different syntax, the numbering is done 1.1 and 1.2 and so on.                                  |                  
 |                                  |2) If the question has different answers in the same or different verses, the numbering is done 1, 2, 3 etc.|
-|Full_Answer	                   |The whole answer consists of the Expert Commentary, the Quran Verse and Hadith.                             |
+|Full_Answer	                     |The whole answer consists of the Expert Commentary, the Quran Verse and Hadith.                             |
 |Expert_Commentary	               |Answer using the expert's words only.                                                                       |
-|Answer-Instances	               |The exact part from the verse that answers the question.                                                    |
+|Answer-Instances	                 |The exact part from the verse that answers the question.                                                    |
 |                                  |The verse may contain more than one answer, and each answer considers an answer instance.                   |
-|Quran_Full_Verse_Answer	       |The complete verse that considered the answer or contains the answer.                                       |
-|Chapter_Name	                   |The chapter name                                                                                            |
+|Quran_Full_Verse_Answer	         |The complete verse that considered the answer or contains the answer.                                       |
+|Chapter_Name	                     |The chapter name                                                                                            |
 |Chapter_Number	                   |The chapter number                                                                                          |
-|Verses_Number_Start	           |The First verse number.                                                                                     |
+|Verses_Number_Start	             |The First verse number.                                                                                     |
 |Verses_Number_End	               |The Last verse number.                                                                                      |
-|Source_Name	                   |The name of the source.                                                                                     |
-|Source_Link	                   |The link to the source.                                                                                     |
+|Source_Name	                     |The name of the source.                                                                                     |
+|Source_Link	                     |The link to the source.                                                                                     |
 |Credibility                       |Yes, if an Islamic expert reviews the answers. No, if it is not.                                            |
 |Question_ID_in_the_Orignal_Dataset|The Question ID in the Orignal Dataset.                                                                     |                                                    
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -47,19 +47,19 @@ The following table describes the HAQA Annotation:
 |                                  |2.      The questions have one answer but are mentioned in many different verses in Hadith..                |
 |Question_Text                     |The question text                                                                                           |
 |Quetion_Type                      |The type of question can be Factoid (F), Confirmation (C) or Descriptive (D).                               |
-|Question_Start_Word	           |The question keyword.                                                                                       |
+|Question_Start_Word	             |The question keyword.                                                                                       |
 |Answer_ID	                       |The answer number to the same questions uniquely.                                                           |
 |                                  |1) If the question has only one answer in a sense, but it came in totally or partly in different            |
 |                                  | Hadith with different syntax, the numbering is done 1.1 and 1.2 and so on.                                 |                  
 |                                  |2) If the question has different answers in the same or different Hadith, the numbering is done 1, 2, 3 etc.|
-|Full_Answer	                   |The whole answer consists of the Expert Commentary, the Quran Verse and Hadith.                             |
+|Full_Answer	                     |The whole answer consists of the Expert Commentary, the Quran Verse and Hadith.                             |
 |Expert_Commentary	               |Answer using the expert's words only.                                                                       |
-|Answer-Instances	               |The exact part from the The Hadith that answers the question.                                               |
+|Answer-Instances	                 |The exact part from the The Hadith that answers the question.                                               |
 |                                  |The Hadith may contain more than one answer, and each answer considers an answer instance.                  |
 |Hadith_Full_Answer        	       |The entire Hadith includes Isnad and Matn.                                                                  |
-|Hadith_Matn	                   |The real Hadith teaching.                                                                                   |                                                                                        
-|Source_Name	                   |The name of the source.                                                                                     |
-|Source_Link	                   |The link to the source.                                                                                     |
+|Hadith_Matn	                     |The real Hadith teaching.                                                                                   |                                                                                        
+|Source_Name	                     |The name of the source.                                                                                     |
+|Source_Link	                     |The link to the source.                                                                                     |
 |Credibility                       |Yes, if an Islamic expert reviews the answers. No, if it is not.                                            |
 |Question_ID_in_the_Orignal_Dataset|The Question ID in the Orignal Dataset.                                                                     |                                                    
 -------------------------------------------------------------------------------------------------------------------------------------------------
